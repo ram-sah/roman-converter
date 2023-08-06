@@ -1,0 +1,36 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+ body{
+    background-color: royalblue;
+    text-align: center;
+    padding: 15px 30px;
+ }
+.container{
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 40px 60px;
+    margin-top: 100px;
+}
+h1{
+    margin-bottom: 10px;
+}
+#convert, #convert2 {
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 900;
+}
+#romanInput, #numberInput, #romanInput2, #numberInput2 {
+    width: 100px;
+    height: 40px;
+}
